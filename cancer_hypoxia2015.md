@@ -151,6 +151,18 @@
 
 > 塩基配列データ解析に関しては[拙著「次世代シークエンサーにより得られたデータの解析」](http://dx.doi.org/10.7875/leading.author.4.e008)を参照。
 
+1. 登録データを統計値から把握する
+	- 'Trends in SRA data'の右の'for more detail'をクリック
+		- 上が By study types, 下が By sequencing platformsによるレコード数の累積折れ線グラフ
+		- 上のグラフの右の'Total'をクリックすると…次に'Whole Genome Sequencing'を
+		- 同様に、下のグラフの一人勝ちの折れ線の'Illumina HiSeq 2000'の文字をクリック…
+2. 欲しいデータを絞り込んで検索する
+	1. 'Search SRA data'のセクションで'Species'に'Homo sapiens'と入力、'Study Type'で'Transcriptome'を選んで'Submit Conditions'をクリック
+	2. 出てきた画面でヒット件数を確認して、'view all'をクリック
+	3. 検索にヒットしたデータがリストで得られる。ここからさらに絞り込む。'Study Title'の下のフォームに'hypox'と入力してみると…inMeXesのようなインクリメンタルサーチでデータが動的に絞りこまれる
+	4. GSE44801と書いてあるIDは[GEO(Gene Expression Omnibus)](http://www.ncbi.nlm.nih.gov/geo/)のそれで、このIDを元に情報がさらに辿れます
+	5. もちろん最初は絞りこまないで、'Free Keyword'でいきなり'hypoxia'で検索してその結果を眺めるというやりかたも
+
 
 ----
 
