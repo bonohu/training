@@ -1,1 +1,1 @@
-# training
+# folder for training materials
